@@ -1,2 +1,47 @@
 data/untrimmed_fastq/*gz
 data/untrimmed_fastq/*fastq
+
+# Sequencing reads
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignments
+*.bam
+*.bam.bai
+*.sam
+*.cram
+*.crai
+
+# Variants
+*.vcf
+*.vcf.gz
+*.bcf
+*.bcf.csi
+
+# Reference genomes / assemblies
+*.fasta
+*.fasta.gz
+*.fa
+*.fa.gz
+*.fna
+*.fna.gz
+
+# Genome indices
+*.bt2
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.fai
+
+# Large archives
+*.tar.gz
+*.tar.bz2
+*.zip
+
+# QIIME2 artifacts (can be large)
+*.qza
+*.qzv
